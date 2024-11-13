@@ -1,0 +1,20 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Marquee from './components/marquee'
+import GridLedScroller from './components/Grid'
+import './index.css'; 
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <Marquee/>
+     
+    </>
+  )
+}
+
+export default App
