@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './marquee.css';
+import './Marquee.css';
 
 const SCROLLER_LENGTH = 60;
 const HEIGHT = 5; // Number of rows per character
